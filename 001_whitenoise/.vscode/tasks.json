@@ -31,8 +31,14 @@
             "command": "logue-cli",
             "args": [
                 "load",
+                "-i",
+                "2",
+                "-o",
+                "2",
+                "-s",
+                "0",
                 "-u",
-                "waves.ntkdigunit"
+                "*.ntkdigunit"
             ],
             "type": "shell",
         }
