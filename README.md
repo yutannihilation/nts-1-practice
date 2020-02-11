@@ -16,6 +16,8 @@ Clone this repo as `/path/to/logue-sdk/platform/nutekt-digital/build` (since `bu
 
 * https://github.com/korginc/logue-sdk/tree/master/platform/nutekt-digital#creating-a-new-project
 * [Definition of `user_osc_param_t`](https://github.com/korginc/logue-sdk/blob/8c261c547815e892c57824b26631863b2002635c/platform/nutekt-digital/inc/userosc.h#L60-L70)
+* [Float-Point Math](https://korginc.github.io/logue-sdk/ref/minilogue-xd/v1.1-0/html/group__utils__float__math.html)
+* [Oscillator Runtime API](https://korginc.github.io/logue-sdk/ref/minilogue-xd/v1.1-0/html/group__osc__api.html)
 
 ### Examples
 
