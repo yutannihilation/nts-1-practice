@@ -1,0 +1,46 @@
+// Copied from https://gist.github.com/kinoshita-lab/6804b0f0091f7259a15df2efd6da4da7
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "make",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "make clean",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "probe",
+            "command": "logue-cli",
+            "args": ["probe"],
+            "type": "shell",
+        },
+        {
+            "label": "load",
+            "command": "logue-cli",
+            "args": [
+                "load",
+                "-i",
+                "2",
+                "-o",
+                "2",
+                "-s",
+                "0",
+                "-u",
+                "*.ntkdigunit"
+            ],
+            "type": "shell",
+        }
+    ]
+}

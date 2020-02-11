@@ -5,6 +5,11 @@ An attempt to create a simple ocsilator with Korg NTS-1
 
 Clone this repo as `/path/to/logue-sdk/platform/nutekt-digital/build` (since `build` is ignored).
 
+## Add an example
+
+1. Copy `000_template` and name the folder
+2. Edit `project.mk` and `manifest.json`
+
 ## References
 
 * https://github.com/korginc/logue-sdk/tree/master/platform/nutekt-digital#creating-a-new-project
